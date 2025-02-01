@@ -34,13 +34,24 @@
     width: 100%;
     margin: 0 !important;
   }
+  .othre-info {
+    /* background-color: #004390 !important; */
+    border: 2px solid #004390 !important;
+    padding: 10px 20px !important;
+  }
   @media (max-width: 768px) {
-    .image-box {
+    .team-section .image-box {
       width: 100% !important;
       height: 400px !important;
       display: flex; 
       justify-content: center;
       align-items: center;
       overflow: hidden; 
+    }
+    .team-block-one{
+      width: 100% !important;
+      height: 100% !important;
+      max-width: 80% !important;
+      min-width: 300px !important;
     }
   }
