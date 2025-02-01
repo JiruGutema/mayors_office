@@ -13428,3 +13428,15 @@ div#mCSB_1_container{
   height: 480px;
   border-radius: 5px;
 }
+/* manually added for the header logo purpose */
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+.logo-box .pull-left {
+  padding: 0px !important;
+}
+.main-header .logo-box{
+  position: relative;
+  padding: 10px 0px;
+}
