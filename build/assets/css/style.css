@@ -4746,7 +4746,7 @@ div#mCSB_1_container{
 .footer-top{
   position: relative;
   display: block;
-  padding: 211px 0px 46px 0px;
+  padding: 100px 0px 36px 0px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
@@ -13488,4 +13488,14 @@ div#mCSB_1_container{
   top: 1px;
   right: 16px;
   color: rgba(255,255,255,0.5);
+}
+
+footer .mayors_footer{
+  margin-left: 100px;
+}
+
+footer .subscribe{
+  display: flex;
+  margin: 10px;
+  gap: 5px;
 }
