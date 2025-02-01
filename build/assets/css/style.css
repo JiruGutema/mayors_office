@@ -2809,7 +2809,7 @@ div#mCSB_1_container{
 .explore-block-one .inner-box .content-box .text .icon-box:before{
   position: absolute;
   content: '';
-  background: url(../images/icons/decor-1.png);
+  /* background: url(../images/icons/decor-1.png); */
   width: 66px;
   height: 4px;
   left: 50%;
@@ -2848,7 +2848,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 20px;
   line-height: 30px;
-  color: #ffffff;
+  /* color: #ffffff; */
   font-weight: 700;
   padding-bottom: 12px;
   margin-bottom: 28px;
