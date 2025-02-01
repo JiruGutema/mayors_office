@@ -1,17 +1,8 @@
+/* header */
 .header-top .clearfix a:hover {
     color: wheat !important;
 }
-.logo img {
-    width: 100px;
-    height: 100px;
-}
-.logo-box .pull-left {
-    padding: 0px !important;
-}
-.main-header .logo-box{
-    position: relative;
-    padding: 10px 0px;
-  }
+
 .dropdown a::after {
     content: "" !important;
 }
@@ -24,4 +15,23 @@
     color: #8e91a2;
     top: 0px;
     right: 0px;
+  }
+
+  .main-header .weathre-box a::before {
+    position: absolute;
+    content: "";
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 14px;
+    top: -2px;
+    right: 0px;
+    color: rgba(255,255,255,0.5);
+  }
+   .droppanel a::before {
+    position: absolute;
+    content: "\f107" !important;
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 14px;
+    top: -2px;
+    right: 0px;
+    color: rgba(255,255,255,0.5);
   }
