@@ -13440,3 +13440,15 @@ div#mCSB_1_container{
   position: relative;
   padding: 10px 0px;
 }
+ .nav-logo {
+  width: 200px;
+}
+.header-top .info-list li:last-child a::before {
+  position: absolute;
+  content: "";
+  font-family: 'Font Awesome 5 Pro';
+  font-size: 14px;
+  top: 1px;
+  right: 16px;
+  color: rgba(255,255,255,0.5);
+}
