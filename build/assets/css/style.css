@@ -2787,6 +2787,10 @@ div#mCSB_1_container{
   transition: all 500ms ease;
 }
 
+.explore-block .mission-values {
+  color: #fff;
+}
+
 .explore-block-one .inner-box:hover .content-box .text{
   transform: translate(-50%,-50%) scale(0,0);
   opacity: 0;
@@ -2809,7 +2813,7 @@ div#mCSB_1_container{
 .explore-block-one .inner-box .content-box .text .icon-box:before{
   position: absolute;
   content: '';
-  /* background: url(../images/icons/decor-1.png); */
+  background: url(../images/icons/decor-1.png);
   width: 66px;
   height: 4px;
   left: 50%;
@@ -2848,7 +2852,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 20px;
   line-height: 30px;
-  /* color: #ffffff; */
+  color: #ffffff;
   font-weight: 700;
   padding-bottom: 12px;
   margin-bottom: 28px;
@@ -4064,11 +4068,12 @@ div#mCSB_1_container{
   margin-top: -25px;
   padding-top: 17px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .team-block-one .inner-box .lower-content .author-box h4{
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 700;
 }
@@ -8182,7 +8187,7 @@ div#mCSB_1_container{
 .discover-section:before{
   position: absolute;
   content: '';
-  background: #252638;
+  background: #4c4c4d;
   width: 100%;
   height: 100%;
   left: 0px;
