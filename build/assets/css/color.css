@@ -116,9 +116,9 @@
 	border-color: #112F77;
 }
 
-.banner-carousel .content-box h6{
+/* .banner-carousel .content-box h6{
 	color: #112F77;
-}
+} */
 
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group input:focus,
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group textarea:focus{
@@ -291,7 +291,7 @@
 }
 
 .testimonial-block-one .inner-box .image-box{
-	border: 2px solid #112F77;
+	/* border: 2px solid #112F77; */
 }
 
 .testimonial-block-one .inner-box .image-box:before{
