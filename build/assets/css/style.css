@@ -178,6 +178,7 @@ h1,h2,h3,h4,h5,h6{
 /* Preloader */
 
 .handle-preloader {
+  
   align-items: center;
   -webkit-align-items: center;
   display: flex;
@@ -8871,9 +8872,9 @@ div#mCSB_1_container{
 }
 
 .history-section .inner-box .single-item:hover:after{
-  background: #f18c94;
-  border-color: #f18c94;
-  box-shadow: 0px 0px 0px 8px #f7bbc0;
+  background: #8c8cf1;
+  border-color: #8c8ff1;
+  box-shadow: 0px 0px 0px 8px #bbc4f7;
 }
 
 .history-section .inner-box .single-item.style-one{
@@ -8884,18 +8885,27 @@ div#mCSB_1_container{
   padding-right: 420px;
 }
 
-.history-section .inner-box .single-item .image-box{
+.history-section .inner-box .single-item .image-box {
   position: absolute;
   top: 0px;
-  width: 340px;
-  height: 340px;
-  border-radius: 50%;
+  width: 340px !important;
+  height: 400px !important; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; 
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
-.history-section .inner-box .single-item .image-box img{
+.history-section .inner-box .single-item .image-box img {
   width: 100%;
-  border-radius: 50%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 20px;
 }
+
 
 .history-section .inner-box .single-item.style-one .image-box{
   left: 0px;
@@ -8942,11 +8952,12 @@ div#mCSB_1_container{
   margin-bottom: 29px;
   color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #ededf0;
+  -webkit-text-stroke-color: #6262b2;
 }
 
 .history-section .inner-box .single-item.style-one span{
   text-align: right;
+  padding-top: 50px;
 }
 
 .history-section .inner-box .single-item.style-two span{
@@ -8968,11 +8979,10 @@ div#mCSB_1_container{
   font-weight: 700;
   margin-bottom: 16px;
 }
-
+/* 
 .history-section .inner-box .single-item.style-one .image-box:before{
   position: absolute;
   content: '';
-  background: url(../images/icons/arrow-1.png);
   top: 0px;
   right: -100px;
   width: 194px;
@@ -8989,7 +8999,7 @@ div#mCSB_1_container{
   width: 194px;
   height: 56px;
   background-repeat: no-repeat;
-}
+} */
 
 .history-section .image-layer{
   position: absolute;
@@ -13501,3 +13511,38 @@ footer .subscribe{
   margin: 10px;
   gap: 5px;
 }
+
+.flaticon-star{
+  display: none;
+}
+
+/* Styling for the breadcrumb section */
+.bread-crumb {
+    width: 180px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    background-color: #112F77;
+    border-radius: 5px;
+    
+}
+.bread-crumb li {
+    list-style-type: none;
+    margin-right: 15px;
+    position: relative;
+}
+/* Hover effect for the breadcrumb links */
+/* .bread-crumb li a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.bread-crumb li a:hover {
+    color: #3498db; 
+    transform: scale(1.1);
+} */
+
+
