@@ -63,6 +63,28 @@
   height: 100%;
   object-fit: cover;
 }
+.testimonial-block-one .inner-box .image-box {
+  border: none !important;
+}
+.testimonial-block-one .inner-box .image-box::before {
+  position: absolute;
+  content: "" !important;
+  font-family: 'Flaticon';
+  left: 46px;
+  bottom: -28px;
+  width: 0 !important;
+  height: 54px;
+  line-height: 54px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 30px;
+  border: 3px solid #252638;
+  z-index: 1;
+}
+.content-box h6 {
+  display: none !important;
+}
 @media (max-width: 768px) {
   .image-box {
     width: 100% !important;
