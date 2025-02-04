@@ -972,6 +972,9 @@
   .coming-soon{
     padding-bottom: 70px;
   }
+  .upper {
+    display: none;
+  }
 
 
 }
@@ -1150,6 +1153,7 @@
   .sec-title h2 br{
     display: none;
   }
+
 
 
 }

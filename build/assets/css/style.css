@@ -13501,3 +13501,13 @@ footer .subscribe{
   margin: 10px;
   gap: 5px;
 }
+.flaticon-star{
+  display: none !important;
+}
+
+.footer-bottom{
+  background-color:#112a65 ;
+}
+.form-group button{
+  background-color:#112a65 ;
+}
